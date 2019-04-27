@@ -4,6 +4,6 @@ def fact(n):
     return n * fact(n-1)
 
 
-n = int(input("Enter the number for it's factorial: "))
-result = fact(n)
+x = int(input("Enter the number for it's factorial: "))
+result = fact(x)
 print(result)
